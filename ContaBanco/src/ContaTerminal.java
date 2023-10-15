@@ -4,17 +4,17 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Programa: Por favor, digite o número da Agência !");
+        System.out.println("Por favor, digite o número da Agência !");
         String agencia = scanner.nextLine();
         
-        System.out.println("Programa: Por favor, digite o número da Conta !");
+        System.out.println("Por favor, digite o número da Conta !");
         int numero = scanner.nextInt();
         scanner.nextLine(); 
         
-        System.out.println("Programa: Por favor, digite o Nome do Cliente !");
+        System.out.println("Por favor, digite o Nome do Cliente !");
         String nomeCliente = scanner.nextLine();
         
-        System.out.println("Programa: Por favor, digite o Saldo !");
+        System.out.println("Por favor, digite o Saldo !");
         double saldo = scanner.nextDouble();
         
         scanner.close();
